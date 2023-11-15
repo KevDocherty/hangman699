@@ -15,7 +15,7 @@ def ask_for_input():
 
     while True:
         guess = input("Please enter a single letter: ")
-        if len(guess) == 1 and guess.isalpha:
+        if len(guess) == 1 and guess.isalpha():
             print("Good guess!")
             break
         else:
